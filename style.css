@@ -1,0 +1,229 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "poppins", sans-serif;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 40px;
+}
+
+.logo {
+  width: 225px;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-image {
+  width: 800px;
+}
+
+.primary-heading {
+  font-weight: bolder;
+  font-size: 80px;
+  line-height: 110px;
+}
+
+.puppi {
+  color: #ffd17d;
+}
+.subtitle {
+  font-weight: normal;
+  font-size: 18px;
+  padding-top: 18px;
+  color: #5a5858;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 20px;
+  margin-top: 50px;
+}
+
+.primary-button {
+  color: #ffffff;
+  background-color: #ff8411;
+  font-size: 20px;
+  display: inline-block;
+  padding: 14px 24px;
+  border-radius: 100px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.secondary-button {
+  color: #333;
+  background-color: #fff;
+  font-size: 20px;
+  display: inline-block;
+  padding: 14px 24px;
+  border-radius: 100px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.logos {
+  display: flex;
+  margin-top: 64px;
+  justify-content: start;
+  align-items: center;
+  gap: 42px;
+}
+
+.logos img {
+  width: 70px;
+}
+.parrafos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.parrafo1 {
+  color: #333;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  width: 350px;
+  border-radius: 10px;
+  padding: 32px 24px;
+  margin: 10px;
+  font-size: 16px;
+}
+
+.parrafo1 img {
+  width: 60px;
+}
+.text2 h2 {
+  color: #ffb222;
+  font-size: 20px;
+}
+
+.parrafo2 {
+  color: #333;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  width: 350px;
+  border-radius: 10px;
+  padding: 32px 24px;
+  font-size: 16px;
+  margin: 10px;
+}
+
+.parrafo2 img {
+  width: 60px;
+}
+.text3 h2 {
+  color: #ffb222;
+  font-size: 20px;
+}
+
+.parrafo3 {
+  color: #333;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  width: 350px;
+  font-size: 16px;
+  border-radius: 10px;
+  padding: 32px 24px;
+  margin: 10px;
+}
+
+.parrafo3 img {
+  width: 60px;
+}
+.text4 h2 {
+  color: #ffb222;
+  font-size: 20px;
+}
+
+.parrafo4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  gap: 61px;
+  margin: 80px;
+}
+
+.parrafo4 img {
+  width: 580px;
+}
+
+.parrafo4 h4 {
+  color: #ffd17d;
+}
+.parrafo4 h1 {
+  font-size: 50px;
+  font-weight: 500;
+  padding-top: 20px;
+}
+
+.text6 ul {
+  font-size: 15px;
+  color: #333;
+  list-style-type: none;
+}
+.text6 ul li {
+  padding: 5px;
+}
+.icom {
+  color: pink;
+  padding-right: 15px;
+}
+
+.container {
+  padding-right: 50px;
+}
+
+.loved-ones {
+  background-image: url("https://tailwag.progressionstudios.com/wp-content/uploads/2022/04/guy-holding-smiling-puppy_t20_JaNme9.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 120px 20px;
+}
+
+.loved-ones h1 {
+  color: #fff;
+  font-size: 64px;
+  width: 45%;
+}
+
+.loved-ones p {
+  padding-top: 20px;
+  color: #ececec;
+  font-size: 18px;
+  width: 54%;
+}
+
+.loved-ones .primary-button {
+  margin-top: 28px;
+}
